@@ -12,22 +12,89 @@
     <div class="wrapper">
         <header class="main__header">
             <div class="cart">
-                <a class="category__button cart__button" href="/views/carrito.html"><i class="bi bi-cart-fill"></i>Carrito <span class="counting__cart" id="counting__cart">0</span></a>
+                <button onclick="document.getElementById('aviso').setAttribute('data-on','on')">
+                    <i class="bi bi-cart-fill"></i>Carrito <span class="counting__cart" id="counting__cart">0</span>
+                </button>
+                <div  class="panel" id="aviso" data-on="off" onclick="this.setAttribute('data-on','off')">
+                    <div class="cart__complete">
+                        <div class="cart__list">
+                            <div class="cart__product">
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
+                                <div class="main__section">
+                                    <div class="upsection">
+                                        <p>Nombre del producto</p>   
+                                        <i class="bi bi-trash-fill"></i>
+                                    </div> 
+                                    <div class="cantidad">
+                                        <input class="canti"  type="text" placeholder="3">
+                                        <p>$500.000    <sub>$499.99</sub></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart__product">
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
+                                <div class="main__section">
+                                    <div class="upsection">
+                                        <p>Nombre del producto</p>   
+                                        <i class="bi bi-trash-fill"></i>
+                                    </div> 
+                                    <div class="cantidad">
+                                        <input class="canti"  type="text" placeholder="3">
+                                        <p>$500.000    <sub>$499.99</sub></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart__product">
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
+                                <div class="main__section">
+                                    <div class="upsection">
+                                        <p>Nombre del producto</p>   
+                                        <i class="bi bi-trash-fill"></i>
+                                    </div> 
+                                    <div class="cantidad">
+                                        <input class="canti"  type="text" placeholder="3">
+                                        <p>$500.000    <sub>$499.99</sub></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart__product">
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
+                                <div class="main__section">
+                                    <div class="upsection">
+                                        <p>Nombre del producto</p>   
+                                        <i class="bi bi-trash-fill"></i>
+                                    </div> 
+                                    <div class="cantidad">
+                                        <input class="canti"  type="text" placeholder="3">
+                                        <p>$500.000    <sub>$499.99</sub></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <div class="total__pagar">
+                                <h3>Total</h3>
+                                <p>$1.999.8</p>
+                            </div>
+                            <div class="btn">
+                                <button>Pagar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <nav class="main__menu">
                 <ul class="menu__categorys">
-                    <li>
-                        <button id="all" class="category__button active">Todos los productos</button>
-                    </li>
-                    <li>
-                        <button id="abrigos" class="category__button">Abrigos</button>
-                    </li>
-                    <li>
-                        <button id="camisetas" class="category__button">Camisetas</button>
-                    </li>
-                    <li>
-                        <button id="pantalones" class="category__button">Pantalones</button>
-                    </li>
+                    <button class="category">producto 1</button>
+                    <button class="category">producto 2</button>
+                    <button class="category">producto 3</button>
+                    <button class="category">producto 4</button>
+                    <button class="category">producto 5</button>
+                    <button class="category">producto 6</button>
+                    <button class="category">producto 7</button>
+                    <button class="category">producto 8</button>
+                    <button class="category">producto 9</button>
+                    <button class="category">producto 10</button>
                 </ul>
             </nav>
         </header>
@@ -47,17 +114,32 @@
                 <div class="product__description">
                     <h1>Nombre del producto</h1>
                     <div class="wtf">
-
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
                     </div>
                     <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, vitae deleniti? Corporis suscipit praesentium, vero ab non doloremque aperiam nisi.
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos consequatur odit et eum similique architecto officia autem cupiditate deleniti, beatae commodi. Nesciunt doloribus ut quos laboriosam qui maiores velit illo ipsum blanditiis. Nisi cupiditate inventore debitis, modi quae aut aspernatur.
                     </p>
                     <div class="price">
                         <h2>$100.000</h2>
                         <h2><small>$99.99</small></h2>
                     </div>
+                    <button onclick="document.getElementById('obtener').setAttribute('data-on','on')">
+                        Obtener
+                    </button>
+                    <div  class="panel2" id="obtener" data-on="off" onclick="this.setAttribute('data-on','off')">
+                        <div>
+                        Esto es un panel de comunicación
+                        <p>(Pulsar para cerrar)</p>
+                        </div>
+                    </div>
                 </div>
             </section>
+            
         </main>
     </div>
 </body>
